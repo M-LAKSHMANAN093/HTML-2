@@ -1,0 +1,67 @@
+<html>
+    <head></head>
+    <body>
+        
+        <form action="https://httpbin.org/post" method="POST">
+       <fieldset>
+               
+
+                <p>
+                    <label for="name">FirstName</label>
+                    <input type="text" name="name" id="name"  required placeholder="enter your name" >
+              <br>
+                
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" min="0" max="100"  >
+                
+                <p>
+                    <label for="dob">DateofBirth</label>
+                    <input type="date" name="dob" id="dob">
+                </p>
+                <p>
+                    <label for="email">Email Id</label>
+                    <input type="email" name="email" id="email">
+                </p>
+                <p>
+                    <input type="submit" value="apply">
+                    <button type="submit">submit</button>
+                    <button type="reset">reset</button>
+                </p>
+            </fieldset>
+        </form>
+        <pre id="response"></pre>
+    </body>
+</html>
+
+<!-- <form action="">
+
+    <script>
+        function submitForm() {
+            // Get form data
+            const formData = new FormData(document.getElementById('dataForm'));
+            const data = Object.fromEntries(formData.entries());
+
+            // Send POST request using Fetch API
+            fetch('https://httpbin.org/post', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(data)
+            })
+            .then(response => response.json())
+            .then(result => {
+                // Display the response
+                document.getElementById('response').textContent = JSON.stringify(result, null, 2);
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                document.getElementById('response').textContent = 'An error occurred. Check console for details.';
+            });
+        }
+    </script>
+
+
+
+
+</form> -->

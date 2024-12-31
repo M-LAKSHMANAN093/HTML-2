@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags Example</title>
+    <style>
+        .highlight { color: red; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HTML Tags Example</h1>
+        <nav>
+            <!--uidfgbhuirgh-->
+            <ul>
+                <li><a href="#text">Text Tags</a></li>
+                <li><a href="#links">Link Tags</a></li>
+                <li><a href="#images">Image Tags</a></li>
+                <li><a href="#lists">List Tags</a></li>
+                <li><a href="#tables">Table Tags</a></li>
+                <li><a href="#forms">Form Tags</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="text">
+        <h2>Text Tags</h2>
+        <p>This is a paragraph.</p>
+        <h3>Subheading h3</h3>
+        <h4>Subheading h4</h4>
+        <h5>Subheading h5</h5>
+        <h6>Subheading h6</h6>
+        <p><strong>Strong text</strong></p>
+        <p><em>Emphasized text</em></p>
+        
+        <p><abbr title="Hypertext Markup Language">HTML</abbr></p>
+        <p><blockquote>This is a blockquote.</blockquote></p>
+        <p><cite>This is a citation.</cite></p>
+        <p>This is an inline <q>quote</q>.</p>
+        <p><code>Code snippet</code></p>
+        <p><ins>Inserted text</ins></p>
+        <p><del>Deleted text</del></p>
+        <p><kbd>Keyboard input</kbd></p>
+        <p><pre>Preformatted text</pre></p>
+        <p><samp>Sample output</samp></p>
+        <p><var>Variable text</var></p>
+        <p>Line break<br> here.</p>
+    </section>
+
+    <section id="links">
+        <h2>Link Tags</h2>
+        <p>This is an <a href="https://www.example.com">external link</a>.</p>
+        <p>This is a <a href="#text">link to text section</a>.</p>
+    </section>
+
+    <section id="images">
+        <h2>Image Tags</h2>
+        <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+        <map name="image-map">
+            <area shape="rect" coords="34,44,270,350" alt="Rectangle" href="https://www.example.com">
+        </map>
+        <img src="https://via.placeholder.com/150" usemap="#image-map" alt="Image Map">
+    </section>
+
+    <section id="lists">
+        <h2>List Tags</h2>
+        <ul>
+            <li>Unordered list item</li>
+            <li>Another item</li>
+        </ul>
+        <ol>
+            <li>Ordered list item</li>
+            <li>Another item</li>
+        </ol>
+        <dl>
+            <dt>Definition term</dt>
+            <dd>Definition description</dd>
+        </dl>
+    </section>
+
+    <section id="tables">
+        <h2>Table Tags</h2>
+        <table border="1">
+            <caption>Table Caption</caption>
+            <thead>
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Data 1</td>
+                    <td>Data 2</td>
+                </tr>
+                <tr>
+                    <td>Data 3</td>
+                    <td>Data 4</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Footer 1</td>
+                    <td>Footer 2</td>
+                </tr>
+            </tfoot>
+            <colgroup>
+                <col span="1" style="background-color:rgba(33, 10, 10, 0);">
+                <col span="1" style="background-color:cyan">
+            </colgroup>
+        </table>
+    </section>
+
+    <section id="forms">
+        <h2>Form Tags</h2>
+        <form action="/submit" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <button type="submit">Submit</button>
+            </fieldset>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 HTML Tags Example</p>
+    </footer>
+
+    <script>
+        console.log("This is a script tag example.");
+    </script>
+    <noscript>Your browser does not support JavaScript!</noscript>
+</body>
+</html>

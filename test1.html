@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TEST 1</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="karthi">
+        <link rel="icon" href="images/gold.png" type="image/x-icon">   
+    </head>
+    <body>
+        <header>
+            <h1><b><u>Bank of Personal</u></b></h1>
+            <hr>
+            <nav>
+                <ul>
+                    <li><a href="#a1"> Bank details</a></li>
+                    <li><a href="#a2"> Personal Details</a></li>
+                    <li><a href="#a3"> About</a></li>
+                    <li><a href="#a4"> send me a note</a></li>
+                </ul>
+            </nav>
+        </header>
+        <hr>
+        <main>
+            <article id="a1">
+                <h2><abbr title="BANK OF PERSONAL">BOP</abbr></h2>
+                <dl><dt>BOP</dt>
+                
+                <dd><p> In our bank is very privacy, It is good bank in our city all the citzen are opened the our <em><strong> bank</strong> accounts</em></p></dd></dl>
+                <figure>
+                    <img src="images/sci4.jpg" alt="Bank Photo" height="500" width="500" title="bank" loading="lazy">
+                    <figcaption>Our Main Branch</figcaption>
+                </figure>
+                
+                <aside>
+                    <details>
+                        <summary>Our Bank Timing</summary>
+                        <table>
+                            <caption>BOP Timing</caption>
+                            <thead><tr>
+                                <th>Timing</th>
+                                <th>Work</th></tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th>Morning</th>
+                                    <td><time datetime="08:00">8 Am</time> to <time datetime="12:00">12 pm</time></td>
+                                    <td>Shift One</td>
+                                </tr>
+                                <tr>
+                                    <th>Afternoon</th>
+                                    <td><time>12 pm</time> to <time datetime="05:00">5 pm</time></td>
+                                    <td>Shift Two</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr><td colspan="3">After 5 bank is closed</td></tr>
+                            </tfoot>
+                        </table>
+                    </details>
+                </aside>
+            </article>
+            <hr>
+            <article id="a2">
+                <h2>Open the Bank Account</h2>
+                <form action="#" method="get">
+                    <fieldset>
+                        <legend>Personal Details</legend>
+                        <p>
+                            <label for="FirstName">First Name :</label>
+                            <input type="text" name="FirstName" id="FirstName" placeholder="karthi" autocomplete="on" required>
+                        </p>
+                        <p>
+                            <label for="lastname">Last Name:</label>
+                            <input type="text" name="lastname" id="lastname" placeholder="keyan" autocomplete="on" required>
+
+                        </p>
+                        <p>
+                            <label for="dob">Date Of Birth</label>
+                            <input type="date" name="dob" id="dob">
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Coding Knowledge</legend>
+                        <p>
+                            <label for="coding">Coding</label>
+                            <select name="coding" id="coding">
+                                <optgroup label="backend">
+                                    <option value="java">Java</option>
+                                    <option value="python">Python</option>
+                                </optgroup>
+                                <optgroup label="script">
+                                    <option value="HTML">HTML</option>
+                                    <option value="CSS">CSS</option>
+                                    <option value="JavaScript">JavaScript</option>
+                                </optgroup>
+                            </select>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Education Knowledge</legend>
+                        <p>
+                            <Label id="education">Your High Level Education</Label>
+                            <input type="text" name="education" id="education1" list="educationlist">
+                            <datalist id="educationlist">
+                                <option value="10th">
+                                <option value="12th">
+                                <option value="UG">
+                                <option value="PG">
+                            </datalist>
+                        </p>
+                    </fieldset>
+                    <Fieldset>
+                        <legend>Account Type</legend>
+                        <p>
+                            <input type="radio" name="acty" id="savings"><label for="savings">Savings</label>
+                        </p>
+                        <p>
+                            <input type="radio" name="acty" id="fd"><label for="fd">Fixed Deposite</label>
+                        </p>
+                    </Fieldset><br>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </article>
+            <hr>
+            <article id="a3">
+                <h2>About Us</h2>
+                BANK OF PERSONAL :
+                <address>
+                    65/89 Gandhi Street <br>
+                    Main Thanjavur <br>
+                    Thanjavur District <br>
+                    Tamil Nadu -690000
+                </address>
+            </article>
+            <hr>
+            <article id="a4" style="background-color:blanchedalmond;">
+                <h2>Send Me A Note</h2>
+                <form action="#" method="post">
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </p>
+                    <p>
+                        <label for="note">Note</label>
+                        <textarea name="note" id="note" cols="30" rows="10"></textarea>
+                    </p>
+                    <button type="submit">submit</button>
+                    <button type="reset">Reset</button>
+                </form>
+            </article>
+        </main>
+        <hr>
+        <footer>copyrigth &copy; bank</footer>
+    </body>
+</html>

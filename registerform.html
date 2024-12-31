@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color: blueviolet;">Student register form</h1>
+    <form action="" style="background-color: antiquewhite; ">
+
+        <fieldset>
+            <legend>Personal Info</legend>
+
+            <p>
+                <label for="firstname">Firstname</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Enter your FirstName">
+            </p>
+            <p>
+                <label for="lastname">Lastname</label>
+                <input type="text" name="lastname" id="lastname" placeholder="Enter your lastName">
+            </p>
+            <p>
+                <label for="email">email</label>
+                <input type="text" name="email" id="email" placeholder="Enter your email">
+            </p>
+            <p>
+                <label for="phone">phone:</label>
+                <input type="tel" name="phone" id="phone" placeholder="919999999999" required
+                    pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+            </p>
+
+            <p>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+            </p>
+            <p>
+            <label for="date of birth">DOB:</label>
+            <input type="date" name="" id="">
+        </p>
+
+            <p>
+                <label for="age">Age</label>
+                <input type="number" name="age" id="age" max="100" min="1">
+                <p><label for="Gender">Gender:</label>
+                    <p><input type="radio" name="gender" id="male" value="male"><label
+                        for="male">Male</label></p>
+                        <p><input type="radio" name="gender" id="female" value="female"><label
+							for="female">Female</label></p>
+                                <legend>student Address</legend>
+                                <label for="message">Your Address</label>
+                                <p>
+                                    <textarea name="message" id="message" cols="30" rows="10"
+                                        placeholder="Type your message"></textarea>
+                                </p>
+                                <p>
+                                    <label for="Code">State:</label>
+                                    <select name="state" id="state" multiple size="3">
+                                        <optgroup>
+                                            <option value="Tamil nadu">Tamil nadu</option>
+                                            <option value="kerala">kerala</option>
+                                            <option value="punjab">punjab</option>
+                                            <option value="andrapradesh" selected>andrapradesh</option>
+                                            <option value="karanataka">karnataka</option>
+                                        </optgroup>
+                                    </select>
+                                </p>
+                                <p>
+                                    <label for="content">Course:</label>
+                                    <input type="text" name="content" id="content" list="content-list">
+                                    <datalist id="content-list">
+                                        <option value="html">
+                                        <option value="css">
+                                        <option value="js">
+                                        <option value="java">
+                                        <option value="python">
+                                        </datalist>
+                                </p>   
+                                <br>   
+                                <button type="register">Register</button>                       
+                             </fieldset>
+
+    </form>
+</body>
+</html>
